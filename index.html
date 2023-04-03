@@ -4,75 +4,37 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
-    <link rel="stylesheet" type="text/css" href="/styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
     <title>Document</title>
 </head>
 <body>
-    <div class="container mt-3">
-        <div class="d-flex justify-content-around mb-3">
-            <div class="p-2 item">
-                <div class="header1">
-                    <img class="mailchimp" src="https://cdn.iconscout.com/icon/free/png-256/mailchimp-5285266-4406703.png">
-                    <h1>Mailchimp <br>
-                        <p style="font-weight: 300;">1 day ago</p>
-                    </h1>
-                    <div class="button1">
-                        <p class="text">Design</p>
-                    </div>
-                </div>
-                <div class="content">
-                    <h2>Senior Product</h2>
-                    <h2>Designer-Singapore</h2>
-                </div>
-                <div class="progress">
-                    <div class="progress-bar bg-danger" role="progressbar" style="width: 64%;" aria-valuenow="64" aria-valuemin="0" aria-valuemax="100"></div>
-                </div>
-                <div class="process-title">
-                    <span class="title" style="font-weight:500;">32 Applied</span>&nbsp;<span style="font-weight:300; color:#a4afc3">of 50 Capacity </span></div>
-                </div>
-            <div class="p-2 item">
-                <div class="header1">
-                    <img class="mailchimp" src="https://cdn-icons-png.flaticon.com/512/3349/3349343.png" style="padding:8px !important;">
-                    <h1>Dribbble <br>
-                        <p style="font-weight: 300;">4 day ago</p>
-                    </h1>
-                    <div class="button1">
-                        <p class="text">Product</p>
-                    </div>
-                </div>
-                <div class="content">
-                    <h2>Junior Product</h2>
-                    <h2>Designer-Singapore</h2>
-                </div>
-                <div class="progress">
-                    <div class="progress-bar bg-danger" role="progressbar" style="width: 60%;" aria-valuenow="60" aria-valuemin="42" aria-valuemax="100"></div>
-                </div>
-                <div class="process-title">
-                    <span class="title" style="font-weight:500;">42 Applied</span>&nbsp;<span style="font-weight:300; color:#a4afc3">of 70 Capacity </span></div>
-            </div>
-            <div class="p-2 item">
-                <div class="header1">
-                    <img class="mailchimp" src="https://cdn-icons-png.flaticon.com/512/52/52053.png" style="padding:8px !important;">
-                    <h1>Reddit <br>
-                        <p style="font-weight: 300;">2 day ago</p>
-                    </h1>
-                    <div class="button1">
-                        <p class="text">Design</p>
-                    </div>
-                </div>
-                <div class="content">
-                    <h2>Softwere Architect</h2>
-                    <h2>Java-USA</h2>
-                </div>
-                <div class="progress">
-                    <div class="progress-bar bg-danger" role="progressbar" style="width: 52%;" aria-valuenow="52" aria-valuemin="0" aria-valuemax="100"></div>
-                </div>
-                <div class="process-title">
-                    <span class="title" style="font-weight:500;">32 Applied</span>&nbsp;<span style="font-weight:300; color:#a4afc3">of 50 Capacity </span></div>
-            </div>
+<!-- Button trigger modal -->
+<h2 class="text-center">My bootstrap background</h2>
+<div class=" d-flex justify-content-center">
+   <button type="button" class="btn btn-success" data-toggle="modal" data-target="#exampleModalLive">Task1</button>
+</div>		
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModalLive" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Task 1</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
         </div>
+        <div class="modal-body">
+            Click Save to complete the task.
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+      </div>
     </div>
+  </div>
 </body>
 </html>
